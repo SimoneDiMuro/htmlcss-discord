@@ -35,3 +35,7 @@ header{
 .w-60{
     width: 60%;
 }
+
+#logo{
+    vertical-align: middle;
+}
