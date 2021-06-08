@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+.clearfix::after{
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
 header{
     background-color: cornflowerblue;
+    height: 80px;
+}
+
+.column{
+    float: left;
+}
+
+.w-20{
+    width: 20%;
+}
+
+.w-60{
+    width: 60%;
 }
